@@ -4,18 +4,18 @@
 
 /**
  * main - main function
+ *
  * Return: Always 0 (success)
  */
 int main(void)
 {
-        char lower = 'a';
+	char ch;
 
-        while (lower < = 'z')
+	for (ch = 'a' ch <= 'z', ch++)
 {
-	                putchar(lower);
-	                lower++;
+	putchar(ch);
 }
-                putchar('\n');
-
-        return (0);
+	putchar('\n');
+	return (0);
 }
+ 
