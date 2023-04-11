@@ -16,6 +16,6 @@ Right shift (>>): moves all the bits in a binary representation to the right by 
 
 Bit manipulation is often used in low-level programming, such as in device drivers and embedded systems programming. It can also be used in cryptography, compression algorithms, and other applications where compactness and efficiency are important.
 
-
-
-
+2.10
+Write a function that returns the value of a bit at a given index
+This program includes a function called get_bit, which takes two arguments: an unsigned long integer n and an unsigned integer index. The function returns the value of the bit located at the given index of n, where the index starts at 0. If the index is greater than 63, an error occurs and the function returns -1. The function creates a bit mask using the left shift operator and the given index, and applies this bit mask to the input number n using the bitwise AND operator to isolate the bit at the given index. Finally, the function returns the value of the bit at the given index (either 0 or 1).
